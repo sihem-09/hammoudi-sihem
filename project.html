@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Sihem Hammoudi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-circle">S</div>
+                    <span class="logo-text">Sihem</span>
+                </a>
+                
+                <a href="index.html#projects" class="btn-outline">
+                    <span class="material-symbols-outlined">arrow_back</span>
+                    Back to Projects
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Detail -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-meta">
+                    <span class="project-category" id="projectCategory"></span>
+                    <span class="project-year" id="projectYear"></span>
+                </div>
+                <h1 class="project-title" id="projectTitle"></h1>
+                <p class="project-description" id="projectDescription"></p>
+            </div>
+
+            <div class="project-hero">
+                <img id="projectHeroImage" alt="Project preview">
+            </div>
+
+            <div class="project-body">
+                <div class="project-info-grid">
+                    <div class="info-block">
+                        <h3>Overview</h3>
+                        <p id="projectDetails"></p>
+                    </div>
+                    
+                    <div class="info-sidebar">
+                        <div class="info-block">
+                            <h4>Client</h4>
+                            <p id="projectClient"></p>
+                        </div>
+                        
+                        <div class="info-block">
+                            <h4>Technologies</h4>
+                            <div class="tech-list" id="projectTech"></div>
+                        </div>
+                        
+                        <div class="info-block">
+                            <h4>Skills</h4>
+                            <div class="tags-list" id="projectTags"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-actions">
+                    <a id="projectLinkBtn" class="btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+                        <span class="material-symbols-outlined">open_in_new</span>
+                        View Live Project
+                    </a>
+                    <a href="index.html#projects" class="btn-outline btn-large">
+                        <span class="material-symbols-outlined">arrow_back</span>
+                        Back to All Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <div class="logo-circle">S</div>
+                        <span class="logo-text">Sihem Hammoudi</span>
+                    </div>
+                    <p>Designing clear, user-centered digital products.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:sihemuiuxengineer@gmail.com">Email</a>
+                    <a href="https://wa.me/213542198069">WhatsApp</a>
+                    <a href="https://instagram.com/sihem.web">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Sihem Hammoudi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="project.js"></script>
+</body>
+</html>
